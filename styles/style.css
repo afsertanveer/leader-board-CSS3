@@ -102,6 +102,7 @@ hr {
 
 .course-info {
     display: flex;
+    align-items: center;
 }
 
 .fa-star {

@@ -10,7 +10,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -93,4 +92,26 @@ hr {
 .blog-author {
     color: #9F9F9F;
     font-size: 16px;
+}
+
+/* courses style */
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #858072;
 }
